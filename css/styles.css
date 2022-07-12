@@ -1,0 +1,111 @@
+body { margin: 0; }
+.top { 
+    background-color: #1F2937;
+    padding: 15px 120px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+}
+.nav-container a {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+}
+.nav-container a:hover {
+    background-color: rgb(32, 30, 30);
+}
+.nav-container .header {
+    flex: 7;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero {
+    display: flex;
+    margin: 100px 15px;
+}
+.hero .hero-main-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: left;
+}
+.hero .hero-secondary-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero .box {
+    flex: 1;
+    text-align: center;
+}
+.hero button {
+    background-color: #3882F6;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+}
+.hero button:hover {
+    cursor: pointer;
+    background-color: #2460c0;
+}
+/* INFORMATION DIV */
+.information {
+    margin: 100px 250px;
+}
+.info-flex {
+    display: flex;
+    margin-top: 30px;
+}
+.info-flex img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.information .item {
+    flex: 1;
+    text-align: center;
+}
+.information header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+/* Quote Div */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+.quote .quote-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+}
+.quote .quote-flex .quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.quote .quote-flex .item {
+    flex: 1;
+}
+.quote .quote-flex .item.citation {
+    align-self: flex-end;
+    font-weight: bold;
+}
