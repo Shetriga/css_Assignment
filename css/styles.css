@@ -1,4 +1,10 @@
-body { margin: 0; }
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    border-radius: 10px;
+}
 .top { 
     background-color: #1F2937;
     padding: 15px 120px;
@@ -14,7 +20,6 @@ body { margin: 0; }
     padding: 20px;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
 }
 .nav-container a:hover {
@@ -23,7 +28,6 @@ body { margin: 0; }
 .nav-container .header {
     flex: 7;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -32,7 +36,6 @@ body { margin: 0; }
     margin: 100px 15px;
 }
 .hero .hero-main-text {
-    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -41,7 +44,6 @@ body { margin: 0; }
     text-align: left;
 }
 .hero .hero-secondary-text {
-    font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 18px;
     color: #E5E7EB;
@@ -54,7 +56,6 @@ body { margin: 0; }
     background-color: #3882F6;
     padding: 10px 35px;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
     color: white;
     border: none;
 }
@@ -73,14 +74,12 @@ body { margin: 0; }
 .info-flex img {
     height: auto;
     width: 100%;
-    border-radius: 10px;
 }
 .information .item {
     flex: 1;
     text-align: center;
 }
 .information header {
-    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     text-align: center;
     font-size: 36px;
@@ -99,7 +98,6 @@ body { margin: 0; }
 .quote .quote-flex .quote-text {
     color: #1F2937;
     font-size: 36px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 .quote .quote-flex .item {
@@ -108,4 +106,45 @@ body { margin: 0; }
 .quote .quote-flex .item.citation {
     align-self: flex-end;
     font-weight: bold;
+}
+/* Call To Action Div */
+.call-to-action {
+    display: flex;
+    align-items: center;
+    margin: 100px 250px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+.call-to-action .item {
+    padding: 30px;
+    flex: 1;
+}
+.call-to-action .item.text {
+    flex: 4;
+}
+.call-to-action .item header {
+    font-size: 24px;
+    font-weight: bold;
+}
+.call-to-action .item button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+.call-to-action .item button:hover {
+    cursor: pointer;
+    background-color: #2460c0;
+}
+/* Footer Div */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.footer .item {
+    padding: 30px;
+    color: white;
 }
